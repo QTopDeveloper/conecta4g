@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/QTopDeveloper/conecta4g/main/atualizacao",
   "Sms": "https://raw.githubusercontent.com/QTopDeveloper/conecta4g/main/notificacao",
@@ -27,13 +27,13 @@
   ],
   "Networks": [
     {
-      "Name": "CLARO 4.5G",
+      "Name": "🔴 CLARO 4.5G 🔴",
       "FLAG": "claro",
-      "Payload": "GET wss://content.akross.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "content.akross.com.br",
-      "TlsIP": "content.akross.com.br",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1\nHost: SEU DOMINIO AQUI \nUpgrade: ws\n\n",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
