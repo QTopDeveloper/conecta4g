@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/QTopDeveloper/conecta4g/main/atualizacao",
   "Sms": "https://raw.githubusercontent.com/QTopDeveloper/conecta4g/main/notificacao",
@@ -29,7 +29,7 @@
     {
       "Name": "🔴 CLARO 4.5G 🔴",
       "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1\nHost: SEU DOMINIO AQUI \nUpgrade: ws\n\n",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
